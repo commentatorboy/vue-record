@@ -1,0 +1,17 @@
+{
+  "name": "vue-record",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vbuild --dev",
+    "build": "vbuild"
+  },
+  "devDependencies": {
+    "node-sass": "^3.11.2",
+    "pug": "^2.0.0-beta6",
+    "sass-loader": "^4.0.2"
+  },
+  "main": "./src/components/vue-record",
+  "dependencies": {
+    "recordrtc": "^5.4.0"
+  }
+}
