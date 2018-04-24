@@ -152,11 +152,16 @@
 </script>
 
 <template lang="pug">
+    h1 Pug - node template engine
+</template>
+
+<template lang="pug">
 div
   |record
   button(v-if="!isRecording", type="button", @click="startRecording") start
   button(v-else, type="button", @click="stopRecording") stop
 </template>
+
 
 
 <style lang="sass" scoped>

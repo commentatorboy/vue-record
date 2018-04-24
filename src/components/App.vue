@@ -6,8 +6,11 @@
       vueRecord,
     },
   }
+  
 </script>
-
+<template lang="pug">
+    h1 Pug - node template engine
+</template>
 <template lang="pug">
 div(id="app")
   vue-record(@record:start="")
